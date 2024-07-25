@@ -109,7 +109,7 @@ library
   build-depends:        base >= 4.10 && <5,
                         attoparsec >= 0.13,
                         text >= 1.2,
-                        connection >= 0.2 && <0.4,
+                        crypton-connection,
                         bytestring >= 0.10 && <0.12,
                         random >= 1.1 && <2,
                         word8 == 0.1.* && <0.2,
